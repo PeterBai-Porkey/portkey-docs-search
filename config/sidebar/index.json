@@ -2,6 +2,487 @@
   "label": "Docs Sidebar",
   "items": [
     {
+      "title": "Quickstart Guides",
+      "link": "doc",
+      "_template": "category",
+      "docLink": "docs/QuickStartGuides/quick-start.mdx",
+      "items": [
+        {
+          "title": "Basic Guides for SDKs",
+          "link": "doc",
+          "_template": "category",
+          "docLink": "docs/QuickStartGuides/BasicGuidesForSDKs/quick-start-sdks.mdx",
+          "items": [
+            {
+              "title": "TypeScript",
+              "link": "doc",
+              "_template": "category",
+              "docLink": "docs/QuickStartGuides/BasicGuidesForSDKs/Typescript/typescript.mdx",
+              "items": [
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Typescript/install-initialize.mdx",
+                  "label": "Install and Initialize",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Typescript/get-data.mdx",
+                  "label": "Get Data",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Typescript/register.mdx",
+                  "label": "Register",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Typescript/social-recovery.mdx",
+                  "label": "Login/Social Recovery",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Typescript/login-by-scanning.mdx",
+                  "label": "Login by Scanning Code",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Typescript/logout.mdx",
+                  "label": "Logout",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Typescript/verifier-service.mdx",
+                  "label": "Verifier Service",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Typescript/assets.mdx",
+                  "label": "Assets",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Typescript/on-off-ramp.mdx",
+                  "label": "On/Off Ramp",
+                  "_template": "doc"
+                }
+              ]
+            },
+            {
+              "title": "Unity",
+              "link": "doc",
+              "_template": "category",
+              "docLink": "docs/QuickStartGuides/BasicGuidesForSDKs/Unity/Unity.mdx",
+              "items": [
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Unity/InstallAndInitialize.mdx",
+                  "label": "Install and Initialize",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Unity/GetData.mdx",
+                  "label": "Get Data",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Unity/Register.mdx",
+                  "label": "Register",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Unity/LoginSocialRecovery.mdx",
+                  "label": "Login/Social Recovery",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Unity/Logout.mdx",
+                  "label": "Logout",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Unity/VerifierService.mdx",
+                  "label": "Verifier Service",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/BasicGuidesForSDKs/Unity/GettingBalance.mdx",
+                  "label": "Getting Balance",
+                  "_template": "doc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Launch Token and NFT collection",
+          "link": "doc",
+          "_template": "category",
+          "docLink": "docs/QuickStartGuides/LaunchTokenAndNFTCollection/LaunchTokenAndNFTCollection.mdx",
+          "items": [
+            {
+              "document": "docs/QuickStartGuides/LaunchTokenAndNFTCollection/ObtainSEED.mdx",
+              "label": "Obtain SEED",
+              "_template": "doc"
+            },
+            {
+              "title": "Create Tokens",
+              "_template": "category",
+              "link": "doc",
+              "docLink": "docs/QuickStartGuides/LaunchTokenAndNFTCollection/CreateTokens.mdx",
+              "items": [
+                {
+                  "document": "docs/QuickStartGuides/LaunchTokenAndNFTCollection/CreateTokensViaEOAAddress.mdx",
+                  "label": "Create Tokens via EOA Address",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/LaunchTokenAndNFTCollection/CreateTokensViaPortkeyCAAddress.mdx",
+                  "label": "Create Tokens via Portkey CA Address",
+                  "_template": "doc"
+                }
+              ]
+            },
+            {
+              "title": "Create NFTs",
+              "_template": "category",
+              "link": "doc",
+              "docLink": "docs/QuickStartGuides/LaunchTokenAndNFTCollection/CreateNFTs.mdx",
+              "items": [
+                {
+                  "document": "docs/QuickStartGuides/LaunchTokenAndNFTCollection/CreateNFTsViaEOAAddress.mdx",
+                  "label": "Create NFTs via EOA Address",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/LaunchTokenAndNFTCollection/CreateNFTsViaPortkeyAccount.mdx",
+                  "label": "Create NFTs via Portkey Account",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/QuickStartGuides/LaunchTokenAndNFTCollection/CreateNFTsOnForest.mdx",
+                  "label": "Create NFTs on Forest",
+                  "_template": "doc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Portkey Wallet Provider Guides",
+          "link": "doc",
+          "_template": "category",
+          "docLink": "docs/QuickStartGuides/PortkeyWalletProviderGuides/PortkeyWalletProviderGuides.mdx",
+          "items": [
+            {
+              "title": "Install and Initialize",
+              "_template": "category",
+              "link": "doc",
+              "docLink": "docs/QuickStartGuides/PortkeyWalletProviderGuides/InstallAndInitialize.mdx",
+              "items": [
+                {
+                  "document": "docs/QuickStartGuides/PortkeyWalletProviderGuides/APIReferences.mdx",
+                  "label": "*API references",
+                  "_template": "doc"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "SDKs",
+      "link": "doc",
+      "docLink": "docs/SDKs/SDKs.mdx",
+      "items": [
+        {
+          "title": "Core SDK",
+          "link": "doc",
+          "docLink": "docs/SDKs/CoreSDK/CoreSDK.mdx",
+          "items": [
+            {
+              "title": "TypeScript",
+              "link": "none",
+              "_template": "category",
+              "items": [
+                {
+                  "document": "docs/SDKs/CoreSDK/TypeScript/@portkeyServices.mdx",
+                  "label": "@portkey/services",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/SDKs/CoreSDK/TypeScript/@portkeyContracts.mdx",
+                  "label": "@portkey/contracts",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/SDKs/CoreSDK/TypeScript/@portkeyDid.mdx",
+                  "label": "@portkey/did",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/SDKs/CoreSDK/TypeScript/@portkeyRequest.mdx",
+                  "label": "@portkey/request",
+                  "_template": "doc"
+                },
+                {
+                  "title": "@portkey/graphql",
+                  "link": "doc",
+                  "_template": "category",
+                  "docLink": "docs/SDKs/CoreSDK/TypeScript/@portkeyGraphql.mdx",
+                  "items": [
+                    {
+                      "document": "docs/SDKs/CoreSDK/TypeScript/GraphqlVisualExampleLinks.mdx",
+                      "label": "graphql Visual Example Links",
+                      "_template": "doc"
+                    }
+                  ]
+                },
+                {
+                  "document": "docs/SDKs/CoreSDK/TypeScript/@portkeyAccounts.mdx",
+                  "label": "@portkey/accounts",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/SDKs/CoreSDK/TypeScript/@portkeyTypes.mdx",
+                  "label": "@portkey/types",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/SDKs/CoreSDK/TypeScript/@portkeyUtils.mdx",
+                  "label": "@portkey/utils",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/SDKs/CoreSDK/TypeScript/@portkeyValidator.mdx",
+                  "label": "@portkey/validator",
+                  "_template": "doc"
+                }
+              ]
+            },
+            {
+              "title": "Unity",
+              "link": "none",
+              "_template": "category",
+              "items": [
+                {
+                  "document": "docs/SDKs/CoreSDK/Unity/DID.mdx",
+                  "label": "DID",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/SDKs/CoreSDK/Unity/ContractBasic.mdx",
+                  "label": "Contract Basic",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/SDKs/CoreSDK/Unity/GraphQL.mdx",
+                  "label": "GraphQL",
+                  "_template": "doc"
+                },
+                {
+                  "document": "docs/SDKs/CoreSDK/Unity/PortkeyConfig.mdx",
+                  "label": "PortkeyConfig",
+                  "_template": "doc"
+                }
+              ]
+            }
+          ],
+          "_template": "category"
+        },
+        {
+          "title": "UI SDK",
+          "link": "doc",
+          "docLink": "docs/SDKs/UISDK/UISDK.mdx",
+          "items": [
+            {
+              "title": "TypeScript",
+              "link": "none",
+              "_template": "category",
+              "items": [
+                {
+                  "document": "docs/SDKs/UISDK/TypeScript/GettingStarted.mdx",
+                  "label": "Getting started",
+                  "_template": "doc"
+                },
+                {
+                  "title": "Document",
+                  "link": "doc",
+                  "docLink": "docs/SDKs/UISDK/TypeScript/Document/Document.mdx",
+                  "items": [
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/Configuration.mdx",
+                      "label": "Configuration",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/Multi-themeConfiguration.mdx",
+                      "label": "Multi-theme Configuration",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/PortkeyProvider.mdx",
+                      "label": "Provider ( PortkeyProvider )",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/SignIn.mdx",
+                      "label": "SignIn",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/Assets.mdx",
+                      "label": "Assets",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/AssetCard.mdx",
+                      "label": "AssetCard",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/SignUpAndLogin.mdx",
+                      "label": "SignUpAndLogin",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/VerifierSelect.mdx",
+                      "label": "VerifierSelect",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/CodeVerify.mdx",
+                      "label": "CodeVerify",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/SetPinAndAddManager.mdx",
+                      "label": "SetPinAndAddManager",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/Guardian.mdx",
+                      "label": "Guardian",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/GuardianApproval.mdx",
+                      "label": "GuardianApproval",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/Unlock.mdx",
+                      "label": "Unlock",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/VerifierPair.mdx",
+                      "label": "VerifierPair",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/PortkeyLoading.mdx",
+                      "label": "PortkeyLoading",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/SetPinBase.mdx",
+                      "label": "SetPinBase",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/AreaCode.mdx",
+                      "label": "AreaCode",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/PhoneNumberInput.mdx",
+                      "label": "PhoneNumberInput",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/PortkeyUtils.mdx",
+                      "label": "Portkey's utils",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/AppleAuthLogin.mdx",
+                      "label": "About login through Apple authorization",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/PortkeyAssetProvider.mdx",
+                      "label": "PortkeyAssetProvider",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/Ramp.mdx",
+                      "label": "Ramp",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/RampPreview.mdx",
+                      "label": "RampPreview",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/TokenNFTTransfer.mdx",
+                      "label": "Token/NFT Transfer ",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/ReceiveCard.mdx",
+                      "label": "ReceiveCard",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/TransactionDetail.mdx",
+                      "label": "Transaction Detail",
+                      "_template": "doc"
+                    },
+                    {
+                      "document": "docs/SDKs/UISDK/TypeScript/Document/PaymentSecurity.mdx",
+                      "label": "PaymentSecurity",
+                      "_template": "doc"
+                    }
+                  ],
+                  "_template": "category"
+                },
+                {
+                  "document": "docs/SDKs/UISDK/TypeScript/FAQ.mdx",
+                  "label": "FAQ",
+                  "_template": "doc"
+                }
+              ]
+            },
+            {
+              "document": "docs/SDKs/UISDK/Unity/Unity.mdx",
+              "label": "Unity",
+              "_template": "doc"
+            }
+          ],
+          "_template": "category"
+        }
+      ],
+      "_template": "category"
+    },
+    {
+      "title": "API Reference",
+      "link": "doc",
+      "docLink": "docs/APIReference/APIReference.mdx",
+      "items": [
+        {
+          "document": "docs/APIReference/ContractAPI.mdx",
+          "label": "Contract API",
+          "_template": "doc"
+        },
+        {
+          "document": "docs/APIReference/GraphQL.mdx",
+          "label": "GraphQL",
+          "_template": "doc"
+        }
+      ],
+      "_template": "category"
+    },
+    {
       "document": "docs/EnvironmentalConfiguration.mdx",
       "label": "Environmental Configuration",
       "_template": "doc"
