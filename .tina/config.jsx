@@ -325,7 +325,20 @@ const CategoryTemplate = {
                     ...CategoryFields,
                     {
                       ...ItemsField,
-                      templates: [DocLinkTemplate, ExternalLinkTemplate],
+                      templates: [
+                        {
+                          ...CategoryTemplateProps,
+                          fields: [
+                            ...CategoryFields,
+                            {
+                              ...ItemsField,
+                              templates: [DocLinkTemplate, ExternalLinkTemplate],
+                            },
+                          ],
+                        },
+                        DocLinkTemplate,
+                        ExternalLinkTemplate,
+                      ],
                     },
                   ],
                 },
