@@ -233,7 +233,8 @@
           "items": [
             {
               "title": "TypeScript",
-              "link": "none",
+              "link": "doc",
+              "docLink": "docs/SDKs/CoreSDK/CoreSDK.mdx",
               "_template": "category",
               "items": [
                 {
