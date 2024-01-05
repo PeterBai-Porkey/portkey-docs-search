@@ -233,8 +233,7 @@
           "items": [
             {
               "title": "TypeScript",
-              "link": "doc",
-              "docLink": "docs/SDKs/CoreSDK/CoreSDK.mdx",
+              "link": "none",
               "_template": "category",
               "items": [
                 {
@@ -256,19 +255,6 @@
                   "document": "docs/SDKs/CoreSDK/TypeScript/@portkeyRequest.mdx",
                   "label": "@portkey/request",
                   "_template": "doc"
-                },
-                {
-                  "title": "@portkey/graphql",
-                  "link": "doc",
-                  "_template": "category",
-                  "docLink": "docs/SDKs/CoreSDK/TypeScript/@portkeyGraphql.mdx",
-                  "items": [
-                    {
-                      "document": "docs/SDKs/CoreSDK/TypeScript/GraphqlVisualExampleLinks.mdx",
-                      "label": "graphql Visual Example Links",
-                      "_template": "doc"
-                    }
-                  ]
                 },
                 {
                   "document": "docs/SDKs/CoreSDK/TypeScript/@portkeyAccounts.mdx",
