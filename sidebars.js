@@ -1,4 +1,4 @@
-const sidebar = require("./config/sidebar/index.js");
+const sidebar = require("./config/sidebar/index.json");
 
 const getDocId = (doc) => {
   return doc
