@@ -109,9 +109,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: docusaurusData.url + "/admin/#/collections/doc",
-          breadcrumbs: false,
         },
-        // blog: false,
         blog: {
           showReadingTime: true,
           editUrl: docusaurusData.url + "/admin/#/collections/post",
@@ -122,32 +120,42 @@ const config = {
       }),
     ],
   ],
-  plugins: [require.resolve("docusaurus-lunr-search")],
+
+  // themes: ["@docusaurus/theme-search-algolia"],
+  plugins: [require.resolve('docusaurus-lunr-search')],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        // title: docusaurusData.title || "",
+        title: docusaurusData.title || "",
         logo: {
           alt: docusaurusData?.logo?.alt
             ? docusaurusData?.logo?.alt
             : "My Logo",
           src: docusaurusData?.logo?.src
             ? docusaurusData?.logo?.src
-            : "img/portkey-logo-light.png",
-          srcDark: docusaurusData?.logo?.srcDark
-            ? docusaurusData?.logo?.srcDark
-            : "img/portkey-logo-dark.png",
-          href: "/docs/category/overview-of-portkey",
+            : "img/logo.svg",
         },
-        items: [
-          ...docusaurusData.navbar.map((item) => {
-            return formatNavbarItem(item);
-          })
-        ],
-        hideOnScroll: true,
+        items: docusaurusData.navbar.map((item) => {
+          return formatNavbarItem(item);
+        }),
       },
-      footer: {},
+      // algolia: {
+      //   // The application ID provided by Algolia
+      //   appId: "CHWOOR5U6P",
+      //   // Public API key: it is safe to commit it
+      //   apiKey: "tina-portkey-test",
+      //   indexName: "dd8c4568e247250cd5b9ed85e7dd061c",
+      // },
+      footer: {
+        style: docusaurusData.footer?.style || "dark",
+        links: docusaurusData.footer?.links.map((item) => {
+          return formatFooterItem(item);
+        }),
+        copyright:
+          `Copyright © ${new Date().getFullYear()} ` +
+          (docusaurusData.footer?.copyright || docusaurusData.title),
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

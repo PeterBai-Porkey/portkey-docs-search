@@ -14,7 +14,7 @@ class DocSearch {
         baseUrl = '/',
         queryDataCallback = null,
         autocompleteOptions = {
-            debug: false, //  If true, the autocomplete will not close on blur. Defaults to false.
+            debug: false,
             hint: false,
             autoselect: true
         },

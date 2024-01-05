@@ -31,17 +31,3 @@
     vertical-align: sub;
   }
 }
-.navbar__search {
-  display: flex ;
-  align-items: center;
-}
-
-.header-search-icon {
-  cursor: pointer;
-}
-
-html[data-theme='dark'] .navbar__search svg * {
-  fill: #fff;
-}
-
-

@@ -1,12 +1,13 @@
 import React from "react";
 import { defineConfig, TextField } from "tinacms";
 import { ReferenceField } from "tinacms";
+import { ArticlesBlockTemplate } from "../src/components/ArticleContainer/template";
+import { ArticlesHeaderBlockTemplate } from "../src/components/helpCenterHeader/template";
 import { FeaturesBlockTemplate } from "../src/components/Features/template";
 import { HeroBlockTemplate } from "../src/components/Hero/template";
-import { HelpCenterContainerTemplate } from "../src/components/HelpCenterContainer/template";
-import { HelpCenterHeaderTemplate } from "../src/components/HelpCenterHeader/template";
 import { MDXTemplates } from "../src/theme/template";
 import { docusaurusDate, titleFromSlug } from "../util";
+// import { Articles as ArticlesContainer } from "../src/components/ArticleContainer";
 import title from "title";
 
 // Your hosting provider likely exposes this as an environment variable
@@ -14,7 +15,7 @@ const branch =
   process.env.NEXT_PUBLIC_TINA_BRANCH ||
   process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF ||
   process.env.HEAD ||
-  "main";
+  "test";
 
 const WarningIcon = (props) => {
   return (
@@ -791,15 +792,15 @@ const HomepageCollection = {
     },
     {
       type: "object",
-      name: "helpCenterContainer",
-      label: "HelpCenterContainer",
-      fields: HelpCenterContainerTemplate.fields,
+      name: "helpCenterArticle",
+      label: "HelpCenterArticle",
+      fields: ArticlesBlockTemplate.fields,
     },
     {
       type: "object",
       name: "helpCenterHeader",
       label: "HelpCenterHeader",
-      fields: HelpCenterHeaderTemplate.fields,
+      fields: ArticlesHeaderBlockTemplate.fields,
     },
   ],
 };
@@ -823,11 +824,11 @@ const PagesCollection = {
       label: "Description",
     },
     {
-      type: "rich-text",
-      name: "body",
-      label: "Body",
-      isBody: true,
-      templates: [...MDXTemplates],
+      type: "object",
+      list: true,
+      name: "blocks",
+      label: "Blocks",
+      templates: [ArticlesBlockTemplate]
     },
   ],
 };

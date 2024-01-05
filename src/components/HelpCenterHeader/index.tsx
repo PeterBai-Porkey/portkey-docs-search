@@ -1,13 +1,7 @@
 import React from "react";
 import styles from "./index.module.css";
 import SearchBar from "../SearchBar";
-export default function HelpCenterHeader({
-  title,
-  subtitle,
-}: {
-  title: string;
-  subtitle: string;
-}) {
+export default function HelpCenterHeader({ title, subtitle }) {
   return (
     <div className={styles["help-center-header"]}>
       <h1 className={styles["header-title"]}>
@@ -16,10 +10,10 @@ export default function HelpCenterHeader({
         </span>
       </h1>
       <h4 className={styles["header-subtitle"]}>
-        <span>{subtitle || "Hello, How Can We Help You?"}</span>
+        <span>{subtitle || "Hello, how can we help you?"}</span>
       </h4>
       <div className={styles["search-bar-container"]}>
-        <SearchBar position="page"></SearchBar>
+        <SearchBar></SearchBar>
       </div>
     </div>
   );
