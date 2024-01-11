@@ -154,3 +154,9 @@ mark {
 iframe {
   width: 100% !important;
 }
+
+.navbar__logo {
+  display: flex;
+  height: auto;
+  align-items: center;
+}
